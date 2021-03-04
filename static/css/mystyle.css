@@ -1,0 +1,65 @@
+body {
+    background: url('/static/images/logos/body_background_herbs.jpg') no-repeat center center fixed;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Navigate bar css*/
+.navbar.navbar-light {
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 1.15em;
+    box-shadow: 0 2px 2px black;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-family: cursive;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: black;
+    color: white;
+}
+
+.navbar-nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 1px black;
+}
+
+/* Main content css*/
+
+.main {
+    min-height: 70vh;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px #000000;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.75);
+}
+
+.form-control {
+    border: solid black 1px;
+}
+
+#lenny-face {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#searchButton {
+    width: 100px;
+    height: auto;
+}
+
+/* Footer css*/
+
+#copyright {
+    color: #ffffff;
+    text-shadow: 0 0 10px #000000;
+}
